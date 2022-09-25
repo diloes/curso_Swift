@@ -1,6 +1,6 @@
 import UIKit
 
-/* -- CLOSURES NON-SCAPING Y ESCAPING -- */
+/* -- CLOSURES NON-ESCAPING Y ESCAPING -- */
 // Todos los closures son Non-Escaping a menos que se indique lo contrario
 // Non-Escaping -> No sale del contexto de la función
 
