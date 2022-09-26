@@ -1,6 +1,8 @@
 import Cocoa
 
 /* -- ARRAYS -- */
+// Las buenas practicas dicen que el array siempre debe ser del mismo tipo.
+// Pero hay una manera de poder poner tipos diferentes en un mismo array.
 
 // Array de tipo String:
 var miArray : [String] = ["item1", "item2", "item3"]
@@ -37,3 +39,9 @@ print(miArray2)
 for item in miArray2 {
     print("Elemento: " + item)
 }
+
+/* ARRAY CON DISTINTOS TIPOS - MALA PRACTICA */
+
+let miArrayAny : [Any] = ["Hola", 2, false]
+print(miArrayAny)
+

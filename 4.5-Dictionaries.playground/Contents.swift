@@ -1,7 +1,8 @@
 import Cocoa
 
 /* -- DICTIONARY -- */
-// key - value
+// Coleción de tipo key-value y desordenada
+// Se accede a un dictionary por su key
 
 let aeropuerto = ["AGP" : "Málaga"]
 

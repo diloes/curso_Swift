@@ -1,7 +1,8 @@
 import Cocoa
 
 /* -- SETs -- */
-// No puede haber el mismo valor repetido
+// Colección desordenada y no puede haber el mismo valor repetido
+// Se accede a un set por valor, por índice no porque son desordenados
 
 var colors = Set(["red", "green", "blue"])
 
